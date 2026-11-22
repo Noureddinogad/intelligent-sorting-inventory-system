@@ -1,0 +1,39 @@
+# Local publication audit (contains extracted personal/document metadata).
+/.portfolio-audit/
+/PUBLICATION_REVIEW.md
+
+# Original academic archives: retain locally pending privacy/editorial review.
+/PFE_DUT_EST_bilal_ogad.pdf
+/PFE_DUT_EST_Noureddine Ogad_Bilal Ezzouhri (2).pdf
+/ppt PFE.pptx
+/notes pptx/
+# Reference illustrations have unverified redistribution permissions.
+/ppt img/
+# Historical code screenshots differ from the editable source.
+/source coudes/gestion de stock par Robot/*.png
+/source coudes/triage par couleur/*.png
+# Review the recording and its audio/metadata before publishing separately.
+/realisation/*.MOV
+
+# Generated Arduino output and local working copies used by README instructions.
+/build/
+/.arduino-work/
+/.pio/
+*.ino.hex
+*.ino.elf
+*.ino.bin
+
+# Local credentials, if introduced later (keep example configuration publishable).
+.env
+.env.*
+!.env.example
+arduino_secrets.h
+
+# OS and editor temporary files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.swp
+*.swo
+*~
